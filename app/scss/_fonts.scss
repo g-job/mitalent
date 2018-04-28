@@ -1,4 +1,7 @@
 @import "_mixins/font-face";
 
-@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
-@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("nutino", "../fonts/nutino/nunito-black");
+@include font-face("nunito-extrabold", "../fonts/nutino-extrabold/nunito-extrabold");
+@include font-face("nunito-semibold", "../fonts/nunito-semibold/nunito-semibold");
+@include font-face("popins", "../fonts/popins/popins-medium");
+@include font-face("popins-regular", "../fonts/popins-regular/poppins-regular", lighten);

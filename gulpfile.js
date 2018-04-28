@@ -1,4 +1,4 @@
-var syntax        = 'sass'; // Syntax: sass or scss;
+var syntax        = 'scss'; // Syntax: sass or scss;
 
 var gulp          = require('gulp'),
 		gutil         = require('gulp-util' ),
@@ -37,6 +37,7 @@ gulp.task('styles', function() {
 gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
+		'app/libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))

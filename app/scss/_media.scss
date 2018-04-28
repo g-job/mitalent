@@ -5,7 +5,9 @@
 
 // ≥1200px
 @include media-breakpoint-down(lg) {
-	
+	.container{
+		max-width: 1680px!important;
+	}
 }
 
 // ≥992px
@@ -43,5 +45,5 @@
 
 // ≤1200px
 @include media-breakpoint-up(xl) {
-	
+
 }
